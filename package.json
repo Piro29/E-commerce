@@ -25,6 +25,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "animate": "^1.0.0"
+        "animate": "^1.0.0",
+        "mdbvue": "^6.7.2"
     }
 }
