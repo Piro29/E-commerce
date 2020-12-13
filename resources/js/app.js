@@ -9,6 +9,13 @@ require('./bootstrap');
 import router from "./routes";
 import VueRouter from "vue-router";
 import Routes from './routes'
+import Vue from 'vue'
+import {BootstrapVue, IconsPlugin} from 'bootstrap-vue'
+
+// Install BootstrapVue
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
 
 window.Vue = require('vue');
 
@@ -34,7 +41,7 @@ Vue.use(VueRouter);
 
 const app = new Vue({
     el: '#app',
-    router:Routes,
+    router: Routes,
 });
 export default app;
 
